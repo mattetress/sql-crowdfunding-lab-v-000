@@ -19,3 +19,15 @@ INSERT INTO users (name, age) VALUES
 ('Talon', 25),
 ("Orion", 18),
 ("Tina", 17);
+
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
+("Get Matt to China", "Travel", 3000, "2012-05-01", "2012-06-10"),
+("Trip to London", "Travel", 5000, "2017-01-01", "2018-01-01"),
+("Timmy's Liver Transplant", "Medical", 20000, '2018-02-15', "2019-05-11"),
+("New house for war hero", "Social", 100000, '2018-03-17', '2018-05-17'),
+('Flght school', "Education", 10000, '2018-07-30', '2018-12-31'),
+('Arita Ware', "Food & Craft", 9000, '2018-04-28', '2018-11-01'),
+("Stay Ahead of the Wolf", 'Music', 12000, '2018-01-13', '2018-12-12'),
+('Greater Hand Oracle Deck', "Illustration", 5000, '2018-10-04', "2018-11-04"),
+('2019 Mr. Cup Letterpress Calendar', 'Calendars', 10000, '2018-09-27', '2018-10-27'),
+('Yappah! Chicken Crisps', 'Food & Craft', 2500, '2016-10-10', '2017-01-31');
